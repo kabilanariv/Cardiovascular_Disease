@@ -1,0 +1,105 @@
+BOX PLOT
+This boxplot is a comparison between all the 3 major biological factors namely Cholesterol,Heart Rate,Blood Pressure with respect to the age. And also helps in visualizing the statistics of each of the risk factors. Like it shows the-upper whisker,lower whisker,median,upper hinge and lower hinge.
+
+TREND LINE
+This trend line graph is also based on the major 3 factors where based of the R squared value, P Squared value and the angle of the linear trend line-Cholesterol and Max Heart Rate shows negative Co-relation and Blood Pressuse Shows Positive Co-relation
+
+DASHBOARD
+This dashboard shows a scatter plot comparison with a trendline showing the linear co-relation between the age and the 4 major biological risk factors.
+The colour shading is based on the Old peak which refers to if the old peak value is greater then 0.5 it indicates a weaker heart which is prone to heart disease
+--Resting Bp
+	Positive co-relation
+--Cholesterol
+	Negative co-relation
+--Heart Rate
+	Negative Co-relation
+--Glucose
+	Positive co-relation
+
+STORY 3
+Calculating Linear Regression for the positive co-relation risk factors
+
+--Resting BP
+	To Plot linear regression- we calculated the Slope and the Y intercept value using a calculated field with the Window function.
+	And for the regression line the formula used was Slope*BP+Y intercept
+	Here in this graph we have plotted a linear regression line whose R squared value is higher and p squared value is lower  making it a BEST CASE SENARIO. So we could conclude from this linear regression that Blood Pressuse is one of the major Risk Factor for heart disease.
+
+--Glucose
+	To Plot linear regression- we calculated the Slope and the Y intercept value using a calculated field with the Window function.
+	And for the regression line the formula used was Slope*Glucose+Y intercept
+	Here in this graph we have plotted a linear regression line whose R squared value is higher and p squared value is lower  making it a BEST CASE SENARIO. So we could conclude from this linear regression that Glucose level is one of the major Risk Factor for heart disease.
+
+--Predictive Modelling
+	Does resting blood pressure and heart rate depend on cholesterol level?
+	Here a model is created to check how much the above situation is true of not true
+	We are using a function call model percentile to predict the presence of heart disease		The obtained value is always between 1 and 0
+	So on considering a particular point we can say that for a particular cholesterol level and a particular BP or HR value is the predicted value is between 0 and 0.4 it is not a good prediction whereas if the value is in between 0.4 and 1 it is a very good prediction.
+
+STORY 4
+Trend lines of the social factors
+--Work Type
+	A random of 100 ids are considered
+	Only Private sector factor shows visible positive co-relation. Meaning people working in the private sector are more prone to heart disease
+--Smoking
+	All the 4 types have slight co-relation, but smoking shows a little bit better one.
+--Residence
+	In this factor both the ppl living in urban and rural area are equally co-related-meaning ppl in both places are affected by heart disease , which means Residence is not a significant Risk Factor
+--Marriage
+	Likewise as both married and non maried trendline does not show significant variation it is also not  a important risk factor when compared to others.
+--HyperTension
+	In the random of 100 ids considered we can see that most of the id's dont have hypertension and with the people with having hyper tension there is a huge neagtive corelation meaning this is also not a major risk factor causing heart disease.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic
+
+ 
+
+	
+	
+

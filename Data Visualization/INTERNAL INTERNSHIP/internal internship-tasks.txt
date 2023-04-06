@@ -1,0 +1,41 @@
+https://www.kaggle.com/fedesoriano/heart-failure-prediction
+https://www.kaggle.com/praagnya/heart-disease-prediction?select=values.csv
+
+2 WEEK-Task - 1 Visualisation - Dash board to Visualise the different factors affecting cardiovascular structure  - R with Tabelaue
+
+1 WEEK
+Task - 2 Preprocessing - Descriptive statistics - Correalations
+
+2 WEEKS
+Task - 3 Modeling : Regression/Classification
+
+3-4 DAYS
+Task - 4 Feed everthing to dashboard
+
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+Receiver Operating Characteristics
+ROC curve
+
+https://hevodata.com/learn/setting-up-cohort-analysis-excel-4-easy-steps/
+
+https://magnimetrics.com/cohort-analysis-explained-with-an-excel-example/
+
+https://thinkinsights.net/digital/cohort-analysis-using-layer-cake-graphs-with-r/
+
+ROC curve
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py
+
+Cohort analysis
+https://docs.google.com/spreadsheets/d/18UkKK_f__hD1MRG_DgGiEKuNt5xeJGD8DjDJJBs2plw/edit#gid=964489707
+https://www.youtube.com/watch?v=jQTBjvClhn4&t=89s
+https://yemijohnson.com/cohorts-analysis-for-subscription-businesses/
+https://www.youtube.com/watch?v=A7LAhSYD86s
+
+
+Roc---
+https://towardsdatascience.com/heart-disease-uci-diagnosis-prediction-b1943ee835a7
+
+
+
+

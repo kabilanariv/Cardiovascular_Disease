@@ -1,0 +1,67 @@
+Social Factors-Python Analysis
+
+These are the required libraries to import for the analysis
+	--Importing required lib
+	  numpy,pandas-python analysis
+	  matplot-graphs	  seaborn-statistical graphs 
+	  accuracy score-to find accuracy
+	  Standard Scaler-removes the mean and scales each feature/variable to unit variance.
+	  Label Encoder- convert string to numeric
+	  Boost Classifier-used when 2 or 3 models are created
+	  plotly-create better visualization 
+	  xgboost-boosted tree algorithim
+	--Reading dataset and printing head of it
+	--no of rows and columns
+	--datatype of each column
+	--data.describe shows count,mean,min and the quartile values(upper hinge,lower hinge,upper 	  	  whisker,lower whisker, median)
+	--Data preprocessing
+	  using is.na function we are finding the na values in bmi replace null values with the mean of 		  other bmi values and drop the other value in gender coulumn, replace unknown value in smoking 	  	  status column with smoking_status
+	--Data Visualisation	  Barplot-gender vs total count
+	  Pie Chart-stroke iruka illaya?
+	  Histogram-smoking,worktype,stroke,gender,hypertension,heart_disease
+	  Density Plot-avg glucose,bmi,stroke
+	  Histogram-hypertension,heart_disease,stroke
+	  Co-relation matrix-shows co-relation between all the values darker the shade higher the 	  correlation and lesser the shade the lesser is the correlation
+
+Machine Learning Models
+	--splitting data into train and test ( to prevent your model from overfitting and to accurately 	  evaluate your model)
+	--encoding categorial varibales
+		male-0
+		female-1
+	--Standardizing data
+		separating the numeric columns in a separate dataframe
+	
+	--Categorical variables(5109, 19)
+		represent types of data which may be divided into groups
+	--Creating a new variable and we are dropping the na values, and concatenating the train and test 	  as xtrain xtest and ytrain ytest (x-numeric, y-string)
+	--To store all the accuracy predicted in the machine learning models formed we are creatiang a
+	  table called model_comparision
+
+Logistic Regression (to find the relationship b/w dependent and independent variables to estimate probability)
+	--We are performing the logistic regression and we are getting the accuracy as 0.94 and so 94%
+	(--to add the recent accuracy to the model_comparision table)
+
+KNN
+	--The KNN algorithm can compete with the most accurate models because it makes highly 
+	  accurate predictions and we are getting the accuracy as 0.939 and so 94%
+
+Decision Tree
+	(--Supervised Machine Learning where the data is continuously split according to a certain 	  	  parameter)
+	--Using decision tree we are geeting the accuracy as 0.94 which is 94%
+
+Random Forest
+	(--Supervised Machine Learning Algorithm that is used widely in Classification and Regression 	  problems)
+	--In this we are getting the accuracy as 0.94 i.e., 94%
+
+*And finally we are printing the model_comparision table where all the ccuracy has been stored*
+	
+
+Classification report is a performance evaluation metric based on the machine learning model, It dispalys
+precision-ratio of tru positives to the sum of true and falso pasitives
+recall-ratio of true positives to the sum of tru positives and false negatives
+f1 score-mean of precision and recall, closer the f1 score to 1.0, better the performance of the model
+support-no of actual  occurences of the class in the dataset.
+
+accuracy-Total number of samples that are classified into the right correct classes with the help of the learning algorithm
+macro avg- it comutes the average without considering the proportion
+weighter average-computer the average considering proportion

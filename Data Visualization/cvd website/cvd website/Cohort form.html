@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  align:centre;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Cohort Analysis</h1>
+    <p>Please fill the required details.</p>
+    <hr>
+
+    <label><b>Name</b></label>
+    <input type="text" placeholder="Enter Name"name" id="name" required>
+<br>
+<br>
+    <label for="psw"><b>Age</b></label><br><br>
+    <input type="number" placeholder="Enter age" required>
+<br>
+<br>
+    <p><b>Gender</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Female</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Male</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Others</label>
+<br>
+<br>
+	<p><b>Previously experienced stroke?</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Yes</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">No</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Not sure</label>
+<br>
+<br>
+	<p><b>Ever Married</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Yes</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">No</label><br>
+<br>
+	<p><b>Hypertension</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Yes</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">No</label><br>
+<br>
+	<p><b>Residence</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Urban</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Rural</label><br>
+<br>
+	<p><b>Work Type</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Private Sector</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Governement Job</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Self Employeed</label><br> 
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Unemployeed</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Children</label>
+<br>
+<br>
+	<p><b>Smoking Status</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Regularly smokes</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Ocassionaly smokes</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Never smokes</label><br>
+<br>
+	<p><b>Chest Pain Type</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Typical Angina</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Atypical Angina</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Non Anginal Type</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Asynstamatic Angina</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">Never experienced chest</label><br>
+<br>
+<br>
+	<label><b>Blood Pressure level (if not sure type *NIL*)</b></label>
+    <input type="text" placeholder="BPL"name" id="name" required>
+<br>
+<br>
+	<label><b>Cholesterol level (if not sure type *NIL*)</b></label>
+    <input type="text" placeholder="CL"name" id="name" required>
+<br>
+<br>
+	<label><b>Maximum Heart Rate (if not sure type *NIL*)</b></label>
+    <input type="text" placeholder="MHR"name" id="name" required>
+<br>
+	<p><b>Diabeties</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Yes</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">No</label><br>
+<br>
+	<p><b>Type of diabeties</b></p>
+
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+	 <label for="html">Diabetes Mellitus(blood sugar is high)</label><br>
+	 <input type="radio" id="css" name="fav_language" value="CSS">
+	 <label for="css">Diabetes Insipidus(blood sugar is low)</label><br>
+	 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	 <label for="javascript">NIL</label>
+<br>
+<br>
+<br>
+	<label><b>Average Glucose Level (if not sure type *NIL*)</b></label>
+    <input type="text" placeholder="AGL"name" id="name" required>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  
+</form>
+
+</body>
+</html>
+

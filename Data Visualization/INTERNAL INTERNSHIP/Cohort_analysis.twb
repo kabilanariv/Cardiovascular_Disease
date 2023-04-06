@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.1217.2241                               -->
+<workbook source-build='2021.1.10 (20211.21.1217.2241)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='values' inline='true' name='federated.1ew3js211c717819jer181pycv6l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='values' name='textscan.1qax0rn0l8nkbi1engilp0n59ydn'>
+            <connection class='textscan' directory='C:/Users/Joselyn Cindrella M/Desktop/QUARTER 3-YEAR-2/INTERNAL INTERNSHIP' filename='values.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='values (2)' name='textscan.1uwprra0ijysru11sxvol1onbj30'>
+            <connection class='textscan' directory='C:/Users/Joselyn Cindrella M/Desktop/QUARTER 3-YEAR-2/INTERNAL INTERNSHIP/Data Sets' filename='values.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1uwprra0ijysru11sxvol1onbj30' name='values.csv' table='[values#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='patient name' ordinal='0' />
+            <column datatype='string' name='thalassemia' ordinal='1' />
+            <column datatype='integer' name='resting bp' ordinal='2' />
+            <column datatype='string' name='chest_pain_type' ordinal='3' />
+            <column datatype='string' name='fasting bs' ordinal='4' />
+            <column datatype='integer' name='cholesterol' ordinal='5' />
+            <column datatype='string' name='depression' ordinal='6' />
+            <column datatype='string' name='sex' ordinal='7' />
+            <column datatype='integer' name='age' ordinal='8' />
+            <column datatype='integer' name='max hr' ordinal='9' />
+            <column datatype='string' name='exercise' ordinal='10' />
+            <column datatype='string' name='heart_disease_present' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1uwprra0ijysru11sxvol1onbj30' name='values.csv' table='[values#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='patient name' ordinal='0' />
+            <column datatype='string' name='thalassemia' ordinal='1' />
+            <column datatype='integer' name='resting bp' ordinal='2' />
+            <column datatype='string' name='chest_pain_type' ordinal='3' />
+            <column datatype='string' name='fasting bs' ordinal='4' />
+            <column datatype='integer' name='cholesterol' ordinal='5' />
+            <column datatype='string' name='depression' ordinal='6' />
+            <column datatype='string' name='sex' ordinal='7' />
+            <column datatype='integer' name='age' ordinal='8' />
+            <column datatype='integer' name='max hr' ordinal='9' />
+            <column datatype='string' name='exercise' ordinal='10' />
+            <column datatype='string' name='heart_disease_present' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient name]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>patient name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thalassemia</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[thalassemia]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>thalassemia</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resting bp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[resting bp]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>resting bp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chest_pain_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[chest_pain_type]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>chest_pain_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fasting bs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fasting bs]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>fasting bs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cholesterol]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>cholesterol</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depression</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[depression]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>depression</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max hr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max hr]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>max hr</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>exercise</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[exercise]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>exercise</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heart_disease_present</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[heart_disease_present]</local-name>
+            <parent-name>[values.csv]</parent-name>
+            <remote-alias>heart_disease_present</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='values.csv1' datatype='table' name='[__tableau_internal_object_id__].[values.csv_9E09C56DF33F4032B7FC75FCE478122E]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Chest Pain Type' datatype='string' name='[chest_pain_type]' role='dimension' type='nominal' />
+      <column caption='Cholesterol' datatype='integer' name='[cholesterol]' role='measure' type='quantitative' />
+      <column caption='Depression' datatype='string' name='[depression]' role='dimension' type='nominal' />
+      <column caption='Exercise' datatype='string' name='[exercise]' role='dimension' type='nominal' />
+      <column caption='Fasting Bs' datatype='string' name='[fasting bs]' role='dimension' type='nominal' />
+      <column caption='Heart Disease Present' datatype='string' name='[heart_disease_present]' role='dimension' type='nominal' />
+      <column caption='Max Hr' datatype='integer' name='[max hr]' role='measure' type='quantitative' />
+      <column caption='Patient Name' datatype='string' name='[patient name]' role='dimension' type='nominal' />
+      <column caption='Resting Bp' datatype='integer' name='[resting bp]' role='measure' type='quantitative' />
+      <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+      <column caption='Thalassemia' datatype='string' name='[thalassemia]' role='dimension' type='nominal' />
+      <column-instance column='[heart_disease_present]' derivation='None' name='[none:heart_disease_present:nk]' pivot='key' type='nominal' />
+      <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Joselyn Cindrella M/Desktop/QUARTER 3-YEAR-2/INTERNAL INTERNSHIP/values.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/07/2022 05:43:45 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='values' increment-value='%null%' refresh-type='create' rows-inserted='180' timestamp-start='2022-03-07 05:43:45.200' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>patient name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[patient name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>patient name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>178</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>thalassemia</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[thalassemia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>thalassemia</remote-alias>
+              <ordinal>1</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>resting bp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[resting bp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>resting bp</remote-alias>
+              <ordinal>2</ordinal>
+              <family>values.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>chest_pain_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[chest_pain_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>chest_pain_type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fasting bs</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fasting bs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fasting bs</remote-alias>
+              <ordinal>4</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cholesterol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol</remote-alias>
+              <ordinal>5</ordinal>
+              <family>values.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>depression</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[depression]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>depression</remote-alias>
+              <ordinal>6</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sex</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sex</remote-alias>
+              <ordinal>7</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>8</ordinal>
+              <family>values.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max hr</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[max hr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max hr</remote-alias>
+              <ordinal>9</ordinal>
+              <family>values.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>exercise</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[exercise]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>exercise</remote-alias>
+              <ordinal>10</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heart_disease_present</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[heart_disease_present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heart_disease_present</remote-alias>
+              <ordinal>11</ordinal>
+              <family>values.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[values.csv_9E09C56DF33F4032B7FC75FCE478122E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:sex:nk]' type='palette'>
+            <map to='#b07aa1'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:heart_disease_present:nk]' type='palette'>
+            <map to='#c46487'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='values.csv1' id='values.csv_9E09C56DF33F4032B7FC75FCE478122E'>
+            <properties context=''>
+              <relation connection='textscan.1uwprra0ijysru11sxvol1onbj30' name='values.csv' table='[values#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='patient name' ordinal='0' />
+                  <column datatype='string' name='thalassemia' ordinal='1' />
+                  <column datatype='integer' name='resting bp' ordinal='2' />
+                  <column datatype='string' name='chest_pain_type' ordinal='3' />
+                  <column datatype='string' name='fasting bs' ordinal='4' />
+                  <column datatype='integer' name='cholesterol' ordinal='5' />
+                  <column datatype='string' name='depression' ordinal='6' />
+                  <column datatype='string' name='sex' ordinal='7' />
+                  <column datatype='integer' name='age' ordinal='8' />
+                  <column datatype='integer' name='max hr' ordinal='9' />
+                  <column datatype='string' name='exercise' ordinal='10' />
+                  <column datatype='string' name='heart_disease_present' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Chestpain type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='values' name='federated.1ew3js211c717819jer181pycv6l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ew3js211c717819jer181pycv6l'>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column caption='Chest Pain Type' datatype='string' name='[chest_pain_type]' role='dimension' type='nominal' />
+            <column-instance column='[age]' derivation='Count' name='[cnt:age:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Disease Present' datatype='string' name='[heart_disease_present]' role='dimension' type='nominal' />
+            <column-instance column='[chest_pain_type]' derivation='None' name='[none:chest_pain_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_disease_present]' derivation='None' name='[none:heart_disease_present:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]'>
+            <groupfilter function='member' level='[none:heart_disease_present:nk]' member='&quot;No&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ew3js211c717819jer181pycv6l].[cnt:age:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ew3js211c717819jer181pycv6l].[cnt:age:qk]' />
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[cnt:age:qk]' />
+              <text column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' />
+              <text column='[federated.1ew3js211c717819jer181pycv6l].[none:chest_pain_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5D9E8608-D3CF-4B8B-AB71-456CFCB24FA5}' />
+    </worksheet>
+    <worksheet name='Heart Disease w.r.t sex,patient'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='values' name='federated.1ew3js211c717819jer181pycv6l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ew3js211c717819jer181pycv6l'>
+            <_.fcp.ObjectModelTableType.false...column caption='values.csv1' datatype='integer' name='[__tableau_internal_object_id__].[values.csv_9E09C56DF33F4032B7FC75FCE478122E]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[values.csv_9E09C56DF33F4032B7FC75FCE478122E]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:values.csv_9E09C56DF33F4032B7FC75FCE478122E:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='values.csv1' datatype='table' name='[__tableau_internal_object_id__].[values.csv_9E09C56DF33F4032B7FC75FCE478122E]' role='measure' type='quantitative' />
+            <column caption='Heart Disease Present' datatype='string' name='[heart_disease_present]' role='dimension' type='nominal' />
+            <column-instance column='[heart_disease_present]' derivation='None' name='[none:heart_disease_present:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient name]' derivation='None' name='[none:patient name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Name' datatype='string' name='[patient name]' role='dimension' type='nominal' />
+            <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:sex:nk]' />
+              <lod column='[federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ew3js211c717819jer181pycv6l].[__tableau_internal_object_id__].[cnt:values.csv_9E09C56DF33F4032B7FC75FCE478122E:qk]</rows>
+        <cols>([federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk] / [federated.1ew3js211c717819jer181pycv6l].[none:sex:nk])</cols>
+      </table>
+      <simple-id uuid='{20E6C86D-3497-4788-AFC0-2360C9AB94EF}' />
+    </worksheet>
+    <worksheet name='Major factors vs random 10 ppl'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='values' name='federated.1ew3js211c717819jer181pycv6l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ew3js211c717819jer181pycv6l'>
+            <column-instance column='[cholesterol]' derivation='Avg' name='[avg:cholesterol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[max hr]' derivation='Avg' name='[avg:max hr:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[resting bp]' derivation='Avg' name='[avg:resting bp:qk]' pivot='key' type='quantitative' />
+            <column caption='Cholesterol' datatype='integer' name='[cholesterol]' role='measure' type='quantitative' />
+            <column caption='Heart Disease Present' datatype='string' name='[heart_disease_present]' role='dimension' type='nominal' />
+            <column caption='Max Hr' datatype='integer' name='[max hr]' role='measure' type='quantitative' />
+            <column-instance column='[heart_disease_present]' derivation='None' name='[none:heart_disease_present:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient name]' derivation='None' name='[none:patient name:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Name' datatype='string' name='[patient name]' role='dimension' type='nominal' />
+            <column caption='Resting Bp' datatype='integer' name='[resting bp]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Ada&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Agnes&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Albert&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Alexander&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Alfred&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Alice&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Allen&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Alma&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Andrew&quot;' />
+              <groupfilter function='member' level='[none:patient name:nk]' member='&quot;Anna&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ew3js211c717819jer181pycv6l].[avg:cholesterol:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d37295' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ew3js211c717819jer181pycv6l].[avg:max hr:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#fabfd2' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ew3js211c717819jer181pycv6l].[avg:resting bp:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ew3js211c717819jer181pycv6l].[avg:cholesterol:qk] + ([federated.1ew3js211c717819jer181pycv6l].[avg:max hr:qk] + [federated.1ew3js211c717819jer181pycv6l].[avg:resting bp:qk]))</rows>
+        <cols>([federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk] / [federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk])</cols>
+      </table>
+      <simple-id uuid='{8BE934E2-9EB9-4037-AF18-8AC27E857211}' />
+    </worksheet>
+    <worksheet name='Patient w.r.t Cholesterol'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='values' name='federated.1ew3js211c717819jer181pycv6l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ew3js211c717819jer181pycv6l'>
+            <column-instance column='[cholesterol]' derivation='Avg' name='[avg:cholesterol:qk]' pivot='key' type='quantitative' />
+            <column caption='Cholesterol' datatype='integer' name='[cholesterol]' role='measure' type='quantitative' />
+            <column caption='Heart Disease Present' datatype='string' name='[heart_disease_present]' role='dimension' type='nominal' />
+            <column-instance column='[heart_disease_present]' derivation='None' name='[none:heart_disease_present:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient name]' derivation='None' name='[none:patient name:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Name' datatype='string' name='[patient name]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]'>
+            <groupfilter function='member' level='[none:heart_disease_present:nk]' member='&quot;No&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk]' />
+              <lod column='[federated.1ew3js211c717819jer181pycv6l].[avg:cholesterol:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8570718765258789' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ew3js211c717819jer181pycv6l].[avg:cholesterol:qk]</rows>
+        <cols>([federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk] / [federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk])</cols>
+      </table>
+      <simple-id uuid='{30EB5762-1F90-4439-80A5-04819E771B9B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='1' param='vert' removable='false' type-v2='layout-flow' w='99034' x='483' y='929'>
+            <zone h='4878' id='3' type-v2='title' w='99034' x='483' y='929' />
+            <zone h='9175' id='4' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99034' x='483' y='5807' />
+            <zone h='84089' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99034' x='483' y='14982'>
+              <flipboard active-id='1' nav-type='number' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Heart Disease w.r.t sex,patient' id='1' />
+                  <story-point captured-sheet='Patient w.r.t Cholesterol' id='2' />
+                  <story-point captured-sheet='Major factors vs random 10 ppl' id='3' />
+                  <story-point captured-sheet='Chestpain type' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{CC2D6DA8-04C9-40CB-AF3D-D9898D6B264D}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{F020617C-089F-4734-8EA5-3FC3113A425D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Chestpain type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' show-all='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3E45E625-2850-41B2-AC54-EB56070FDF5A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Heart Disease w.r.t sex,patient'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ew3js211c717819jer181pycv6l].[none:sex:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C5455E0E-6EFA-4539-A682-621E3D55CD10}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Major factors vs random 10 ppl'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1ew3js211c717819jer181pycv6l].[none:patient name:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E33158E9-5EFB-4583-96F8-86B6EBB82718}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Patient w.r.t Cholesterol'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.1ew3js211c717819jer181pycv6l].[none:heart_disease_present:nk]' show-all='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4C3D1DDF-85D0-4164-8D5F-D896906CB276}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+      WKieq0KEAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
